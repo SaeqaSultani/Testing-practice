@@ -25,8 +25,8 @@ describe('Add', () => {
   it('should return the sum of tow number', () => {
     const calculator = new Calculator();
     expect(calculator.add(4, 2)).toBe(6);
-    expect(calculator.add(7, 2)).toBe(6);
-    expect(calculator.add(14, 2)).toBe(16);
+    expect(calculator.add(7, 2)).toBe(9);
+    expect(calculator.add(14,2)).toBe(16);
   });
 });
 
